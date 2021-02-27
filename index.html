@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Loan Approval</title>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="code.js"></script>
+</head>
+<body>
+
+<h1>Loan Approval</h1>
+
+<form>
+    <label for="salary">What is you Salary?</label>
+    <input id="salary" type="number" min="0" max="100000000" required>
+
+    <br>
+
+    <label for="creditScore">What is your Credit Score?</label>
+    <input id="creditScore" type="number" min="350" max="850" required>
+
+    <br>
+
+    <label for="jobMonths">How many months have you spent at your job?</label>
+    <input id="jobMonths" type="number" min="0" max="1200" required>
+
+
+    <br>
+    <br>
+    <button>Check for Approval</button>
+
+</form>
+<p id="displayCheck"></p>
+
+
+</body>
+</html>
